@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EEPROCAR</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <header class="container">
+      <img src="./logo-eeprocar.png" alt="Logotipo da EEPROCAR" />
+      <div>
+        <h2>EEPROCAR</h2>
+        <h3>eeprocar.com.br</h3>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <p>Aguarde</p>
+        <br />
+        <div class="loading">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="contador-container">
+          <div class="contador-card cor-1">
+            <span class="numero" id="dias"></span>
+            <span class="texto">dias</span>
+          </div>
+          <div class="contador-card cor-2">
+            <span class="numero" id="horas"></span>
+            <span class="texto">horas</span>
+          </div>
+          <div class="contador-card cor-3">
+            <span class="numero" id="minutos"></span>
+            <span class="texto">minutos</span>
+          </div>
+          <div class="contador-card cor-4">
+            <span class="numero" id="segundos"></span>
+            <span class="texto">segundos</span>
+          </div>
+        </div>
+
+        <p>para o lançamento do <span>novo site</span>.</p>
+      </div>
+    </main>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
